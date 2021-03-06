@@ -1,4 +1,31 @@
-h1{
-    color: red;
-    font-size: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    font-family: "Pacifico" ;
+    margin:0px;
 }
+
+ 
+#main{
+
+    text-align: center;
+}
+.welcome{
+    text-align:center;
+}
+
+.navigation{
+    text-align:left;
+    margin:0px;
+    background-color:grey;
+}
+.navigation li{
+    list-style-type: None;
+    display:inline;
+    margin-right: 20px; 
+    margin-left: 20px; 
+    font-size: 20px;
+}
+
+
