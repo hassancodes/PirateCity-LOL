@@ -37,7 +37,19 @@ body{
 }
 
 .button-center button{
+ /* padding : 10px; */
+ padding-top:10px;
+ padding-bottom: 10px;
+ padding-left: 25px;
+ padding-right:25px;
+ border-radius: 12px;
+ font-size:20px;
+ border: none;
+ background-color:yellow;
  
+
+ /* golden , black, red ,yellow*/
+
 }
 
 .footer-center{
