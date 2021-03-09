@@ -50,10 +50,9 @@ body {
         border-radius: 4px;
         padding: 15px;
         left:20px;
-        font-family:"spirax";
+        font-family:"Spirax";
         font-size:20px;
         color:white;
-
 
     }
 
@@ -132,6 +131,13 @@ body {
 
 }
 
+.footer-center img{
+    position:relative;
+    text-align: center;
+    right:13px;
+
+}
+
 .footer-center li {
     display: inline;
     padding-left: 15px;
@@ -142,9 +148,12 @@ body {
 .footer-center a {
     color: white;
     text-decoration: none;
+    font-size:20px;
+    text-align:center;
+
     animation-name: footer-color;
 
-    animation-duration: 50s;
+    animation-duration:50s;
 }
 
 .footer-center a:hover {
