@@ -46,7 +46,19 @@ body {
     .dropdown{
         position:relative;
         display:block;
-        
+        background:transparent;
+        border-radius: 4px;
+        padding: 15px;
+        left:20px;
+        font-family:"spirax";
+        font-size:20px;
+        color:white;
+
+
+    }
+
+    .dropdown:hover{
+        color:orange;
     }
     
 
