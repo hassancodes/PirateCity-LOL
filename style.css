@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Spirax&display=swap');
+
 
 
 body {
@@ -6,12 +9,26 @@ body {
     font-family: "Pacifico";
     margin: 0px;
     background: url(resources/pirates_16.jpg);
-    /* back-g */
     background-repeat: no-repeat;
-    background-size: 1300px 800px;
+
+    /* background-size: 1300px 800px;  */
+    background-size: cover;
 
 }
 
+@media screen and (max-width:600px){
+    body {
+
+        font-family: "Pacifico";
+        margin: 0px;
+        background: url(resources/piratemob.jpg);
+        background-repeat: no-repeat;
+    
+        /* background-size: 1300px 800px;  */
+        background-size: cover;
+    
+    }
+}
 
 
 #main {
