@@ -12,11 +12,16 @@ body {
 
 }
 
-
+/* background image */
 .bg-image{
     background: url(resources/pirates_16.jpg);
     background-repeat: no-repeat;
     background-size:100% 812px;
+}
+
+
+.dropdown{
+    display:none;
 }
 
 /* adding my first media query */
@@ -33,6 +38,18 @@ body {
         
     
     }
+
+    .navigation{
+    display:none;
+    
+    }
+    .dropdown{
+        position:relative;
+        display:block;
+        
+    }
+    
+
 }
 
 
@@ -46,10 +63,12 @@ body {
     text-align: center;
 }
 
+
 .navigation {
     text-align: center;
     margin: 0px;
-    background-color: grey;
+    background-color: orange;
+    color:black;
 }
 
 .navigation li {
@@ -109,14 +128,15 @@ body {
 }
 
 .footer-center a {
-    color: black;
+    color: white;
     text-decoration: none;
     animation-name: footer-color;
+
     animation-duration: 50s;
 }
 
 .footer-center a:hover {
-    color: white;
+    color: red;
     text-decoration: none;
 
 }
