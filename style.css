@@ -6,13 +6,9 @@
 
 body {
 
-    font-family: "Pacifico";
+    font-family: "Spirax";
     margin: 0px;
-    /* background: url(resources/pirates_16.jpg);
-    background-repeat: no-repeat;
-
-    /* background-size: 1300px 800px;  */
-    /* background-size: cover; */
+    color:white;
 
 }
 
@@ -20,23 +16,21 @@ body {
 .bg-image{
     background: url(resources/pirates_16.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% 812px;
 }
 
+/* adding my first media query */
 @media screen and (max-width:600px){
     .bg-image{
 
         font-family: "Pacifico";
         margin: 0px;
         background: url(resources/piratemob.jpg);
+        background-color: black;
         background-repeat: no-repeat;
-        /* width:auto; */
-        /* width:100%; */
-        /* height:auto; */
-    
-
         background-size:100% 812px;
-
+        font-family: "Spirax";
+        
     
     }
 }
@@ -45,6 +39,7 @@ body {
 #main {
 
     text-align: center;
+    text-decoration:underline;
 }
 
 .welcome {
