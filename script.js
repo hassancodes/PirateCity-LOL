@@ -1,10 +1,15 @@
 //Pirate code jam
+// variable section.
 var mybtn = document.getElementById("btn");
 
 
+// adding event listeners
 mybtn.addEventListener("click", myfunc);
 
-// myfirstfunction
+
+
+
+// function section
 function myfunc(){
     location.href = "main.html";
 }
