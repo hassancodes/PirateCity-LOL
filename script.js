@@ -1,2 +1,14 @@
 //Pirate code jam
-Document.querySelector();
+var mybtn = document.getElementById("btn");
+
+
+mybtn.addEventListener("click", myfunc);
+
+// myfirstfunction
+function myfunc(){
+    location.href = "main.html";
+}
+
+
+
+
