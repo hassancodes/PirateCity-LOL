@@ -1,26 +1,26 @@
 .carddiv{
-
-/* position:relative; */
-/* left:30%; */
-    background-color: white;
-    width:270px;
+    /* border: 2px solid red; */
+    background-color:white;
+    width:250px;
     height:300px;
-   position:relative;
-   margin: auto;
-   left: 0;
-   right: 0;
-   top: 15px;
-   bottom: 0;
+    margin:auto;
+    margin-top:15px;
+    border-radius:8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
-   border-radius: 10px;
-   box-shadow: 4px 6px rgb(39, 33, 33);
-
+    
 }
 
-div .cardpara{
+.carddiv:hover{
+    box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);
+    transform: scale(1.03);
+}
+
+.cardpara{
+    /* border:1px solid green; */
     color:black;
-    font-size: bold;
-    position:absolute;
-    margin:20px;
-  
+    text-align: center;
+    /* position: relative;
+    top:40%; */
+
 }
