@@ -7,4 +7,4 @@
 * progress Map
 * Pirate language translation
 
-> Contributors: [Maron](https://github.com/Maron5000) and [Hassan](https://github.com/hassancodes)
+> Contributors : [Maron](https://github.com/Maron5000) and [Hassan](https://github.com/hassancodes)

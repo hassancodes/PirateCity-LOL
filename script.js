@@ -27,7 +27,9 @@ var a = document.getElementById("div__button");
 a.addEventListener("click", LOL);
 
 function LOL(){
+
     console.log("Bye. bsdk");
+
 }
 
 

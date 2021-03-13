@@ -30,8 +30,7 @@
 
 .div__button{
 text-align: center;
+position:sticky;
+/* position: fixed; */
 }
 
-.div__button{
-
-}
