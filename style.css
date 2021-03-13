@@ -77,13 +77,14 @@ body {
 
 
 .navigation {
-    text-align: left;
+    text-align: center;
     margin: 0px;
     background-color: orange;
     color: black;
 }
 
-.navigation li {
+
+.navigation li{
     list-style-type: None;
     display: inline;
     margin-right: 20px;
@@ -116,42 +117,41 @@ body {
 }
 
 
-.footer-center {
-/* text-align : center;
-position: relative;
-    left: 0;
-    bottom: 15px;
-    height: 100px;
-    width: 100%; */
+.footer{
+   /* text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: auto;
+    align-content: center;
+ */
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+ right: 0px;
+ margin-bottom: 4px;
+ text-align: center;
 
-
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        margin-bottom: 4px;
-        text-align: center;
-    
 
 }
 
 
 
-.footer-center img {
+.footer img{
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     right: 13px;
-
 }
 
-.footer-center li {
+.footer li {
     display: inline;
     padding-left: 15px;
     bottom: 0px;
     text-decoration: none;
 }
 
-.footer-center a {
+.footer a{
 
     color: white;
     text-decoration: none;
@@ -166,7 +166,7 @@ position: relative;
     padding-left:0px;
 }
 
-.footer-center a:hover {
+.footer a:hover {
     color: red;
     text-decoration: underline;
 
