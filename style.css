@@ -117,19 +117,22 @@ body {
 
 
 .footer-center {
-
-/* position: relative;
-top:120px;
-bottom:10px; */
-
-
-text-align : center;
+/* text-align : center;
 position: relative;
     left: 0;
     bottom: 15px;
     height: 100px;
-    width: 100%;
-    /* overflow: hidden; */
+    width: 100%; */
+
+
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 4px;
+        text-align: center;
+    
+
 }
 
 
