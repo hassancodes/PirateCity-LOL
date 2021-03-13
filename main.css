@@ -24,3 +24,16 @@
     top:40%; */
 
 }
+
+/* aligning buttons */
+
+.div__button{
+text-align: center;
+}
+
+.div__button{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* columns: 2; */
+}
