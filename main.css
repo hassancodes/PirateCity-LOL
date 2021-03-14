@@ -1,6 +1,9 @@
+.bg-image{
+    background-color:yellow;
+}
+
 .carddiv{
-    /* border: 2px solid red; */
-    background-color:white;
+
     width:250px;
     height:300px;
     margin:auto;
@@ -8,6 +11,8 @@
     margin-bottom:15px;
     border-radius:8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
 
     
 }
@@ -26,11 +31,30 @@
 
 }
 
-/* aligning buttons */
-
-.div__button{
-text-align: center;
-position:sticky;
-/* position: fixed; */
+#riddle-card{
+    color:white;
+    text-decoration: underline;
 }
 
+/* aligning buttons */
+
+.buttons{
+    text-align: center;
+    /* border: 2px solid  red; */
+}
+
+.buttons button{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* border:5px; */
+    border: 2px solid  orange;
+    padding:8px;
+    border-radius:5px;
+    background:transparent;
+}
+
+
+.buttons button:hover{
+    background:orange;
+
+}
