@@ -1,9 +1,6 @@
-.bg-image{
-    background-color:yellow;
-}
+
 
 .carddiv{
-
     width:250px;
     height:300px;
     margin:auto;
@@ -12,17 +9,18 @@
     border-radius:8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color:rgba(0, 0, 0, 0.5);
-    color:white;
-
-    
+    color:white;   
 }
 
 .carddiv:hover{
+
     box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);
     transform: scale(1.03);
+
 }
 
 .cardpara{
+
     /* border:1px solid green; */
     color:black;
     text-align: center;
@@ -32,13 +30,16 @@
 }
 
 #riddle-card{
+
     color:white;
     text-decoration: underline;
+
 }
 
 /* aligning buttons */
 
 .buttons{
+    
     text-align: center;
     /* border: 2px solid  red; */
 }
