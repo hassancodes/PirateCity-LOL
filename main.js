@@ -139,7 +139,7 @@ riddle = [{
         choice1: "Two Pirates",
         choice2: "Two Lizards",
         choice3: "Nothing",
-        choice4: "Fake riddle",
+        choice4: "Ghost",
         c: "Two Pirates"
     },
     {
