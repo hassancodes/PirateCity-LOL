@@ -51,11 +51,11 @@
     border: 2px solid  orange;
     padding:8px;
     border-radius:5px;
-    background:transparent;
+    background:orange;
 }
 
 
 .buttons button:hover{
-    background:orange;
+    background:transparent;
 
 }
