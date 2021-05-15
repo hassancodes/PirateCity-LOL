@@ -1,0 +1,49 @@
+.in-text-area{
+    width:464px;
+    height:107px;
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-color:red;
+    resize:none;
+    opacity:0.8;
+    margin-top:50px;
+    margin-bottom:25px;
+    border-radius:10px;
+    
+}
+
+
+.out-text-area{
+
+    width:464px;
+    height:107px;
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-color:red;
+    resize:none;
+    opacity:0.9;
+    margin-top:25px;
+    border-radius:10px;
+    
+
+}
+
+button{
+padding:10px;
+border-radius: none;
+background-color: yellow;
+border: 0px;
+border-radius: 8px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+button:hover{
+    opacity:0.6;
+}
